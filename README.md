@@ -47,12 +47,16 @@ The analysis of the election show that:
 ---
 
 ## Election Audit Summary
-The winner of the recent local congressional election in Colorado was Diana Degette who received 73.8% of the vote. The county where the most votes were casted was Denver.
+- The winner of the recent local congressional election in Colorado was Diana Degette who received 73.8% of the vote. The county where the most votes were casted was Denver.
 
 ![Election_Results_CSV](https://github.com/mbroad1/Module-3-PyPoll-Challenge/blob/a32abfed7e9664b3a6582247af911e264eac1273/Election%20Results%20CSV.png)
 
-The script written to determine the total votes, the votes for each candidate, the percentage of votes for each candidate, the candidate winner, the votes casted in each county, the percentage of votes casted in each county, and the county with the most votes can be reused again for another election if the .csv file of the data for that election was formatted the same as the election_results.csv file that was used for the script (seem image above for reference). 
+- The script written to determine the total votes, the votes for each candidate, the percentage of votes for each candidate, the candidate winner, the votes casted in each county, the percentage of votes casted in each county, and the county with the most votes can be reused again for another election if the .csv file of the data for that election was formatted the same as the election_results.csv file that was used for the script (seem image above for reference). 
 
 ![Election Index Example](https://github.com/mbroad1/Module-3-PyPoll-Challenge/blob/3f950feef08bb3d6d475fe60fc0eec99241780b6/Election%20Index%20Example.png)
 
-If the ballot ID, county, and candidate columns are in a different order for the next election data to be analyzed, be sure that the index number placed in these variables match the column in which you want the data from.
+- One way to reuse this script for another election is if the ballot ID, county, and candidate columns are in a different order for another election data to be analyzed, be sure that the index number placed for these variables match the column in which you want the data from so that the same code can be reused.
+
+- Likewise, the second way to reuse this script could be for a presidential election. However, in order to declare which state a candidate won, there would have to be both an analysis of who won which county and then an additional analysis to sum up which candidate won the majority of the vote in that state in order to reflect the complexity of the electoral college.
+
+- Overall, this script can be reapplied to many different election scenarioes such as a school student body president election (in this case, the code pertaining to information about the counties is unnecessary) or a presidential election in which more code would needed to be added in order to account for how the electoral college operates.
