@@ -51,4 +51,8 @@ The winner of the recent local congressional election in Colorado was Diana Dege
 
 ![Election_Results_CSV](https://github.com/mbroad1/Module-3-PyPoll-Challenge/blob/a32abfed7e9664b3a6582247af911e264eac1273/Election%20Results%20CSV.png)
 
-The script written to determine the total votes, the votes for each candidate, the percentage of votes for each candidate, the candidate winner, the votes casted in each county, the percentage of votes casted in each county, and the county with the most votes can be reused again for another election if the .csv file of the data for that election was formatted the same as the election_results.csv file that was used for the script (seem image above for reference).
+The script written to determine the total votes, the votes for each candidate, the percentage of votes for each candidate, the candidate winner, the votes casted in each county, the percentage of votes casted in each county, and the county with the most votes can be reused again for another election if the .csv file of the data for that election was formatted the same as the election_results.csv file that was used for the script (seem image above for reference). 
+
+![Election Index Example](https://github.com/mbroad1/Module-3-PyPoll-Challenge/blob/3f950feef08bb3d6d475fe60fc0eec99241780b6/Election%20Index%20Example.png)
+
+If the ballot ID, county, and candidate columns are in a different order for the next election data to be analyzed, be sure that the index number placed in these variables match the column in which you want the data from.
