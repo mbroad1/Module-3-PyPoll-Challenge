@@ -49,6 +49,6 @@ The analysis of the election show that:
 ## Election Audit Summary
 The winner of the recent local congressional election in Colorado was Diana Degette who received 73.8% of the vote. The county where the most votes were casted was Denver.
 
-![Election_Results_CSV] (https://github.com/mbroad1/Module-3-PyPoll-Challenge/blob/main/Election%20Results%20CSV.png)
+![Election_Results_CSV] (https://github.com/mbroad1/Module-3-PyPoll-Challenge/blob/main/Election_Results_CSV.png)
 
 The script written to determine the total votes, the votes for each candidate, the percentage of votes for each candidate, the candidate winner, the votes casted in each county, the percentage of votes casted in each county, and the county with the most votes can be reused again for another election if the .csv file of the data for that election was formatted the same as the election_results.csv file that was used for the script (seem image above for reference).
